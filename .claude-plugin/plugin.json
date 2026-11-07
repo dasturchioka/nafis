@@ -1,0 +1,13 @@
+{
+  "name": "nafis",
+  "description": "A product-design council for coding agents: three lenses (Cooper, Tesler, Norman) plan and review features, screens, PRs and backend changes under a per-project profile, and merge their findings into one verdict.",
+  "version": "0.1.0",
+  "author": {
+    "name": "dasturchioka"
+  },
+  "repository": "https://github.com/dasturchioka/nafis",
+  "skills": "./skills/",
+  "homepage": "https://github.com/dasturchioka/nafis",
+  "license": "MIT",
+  "icon": "./assets/png/nafis-app-icon-1024.png"
+}
