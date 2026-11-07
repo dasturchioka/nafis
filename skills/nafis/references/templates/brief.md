@@ -16,8 +16,8 @@ by reference; no real customer data.
 - Primary user: <role from the profile>. Backend: end user <…>; caller <…>; operator <…>
 - Evidence: <sources and counts showing the problem recurs>
 - Outcome: <the end state wanted, not a screen>
-- Appetite: <small batch, 1–2 weeks | big batch, 6 weeks | other>
-- Scope in: <…>
+- Scope in (must-haves): <…>
+- Nice-to-haves: <…>
 - No-gos: <…>
 - Rabbit holes: <unknown → patched | cut | fenced>
 - Defaults: <default>: <owner>, <reason>

@@ -57,7 +57,7 @@ Loaded on every Cooper run, `ui` and `backend` alike. Cooper has no `backend`-on
 ### Grab-bag · both
 **Ask:** Which single problem does this project solve, and what does "done" look like?
 **Smell:** "Redesign settings", "v2", "rewrite the integration" or "refactor the pipeline" with no use case driving it. A second version that adds every deferred wish at once (Second-system effect). A large new system specified in full on paper (Gall's Law).
-**Move:** Split the work into named problems, each with its own appetite and finish line. Grow from a simple version that already works, and extend it one proven step at a time.
+**Move:** Split the work into named problems, each with its own scope line and finish line. Grow from a simple version that already works, and extend it one proven step at a time.
 **From:** Shape Up (Set Boundaries); hacker-laws (Gall's Law; Second-System Effect)
 
 ### Reuse before adding · both
@@ -66,18 +66,18 @@ Loaded on every Cooper run, `ui` and `backend` alike. Cooper has no `backend`-on
 **Move:** Start by listing the current surfaces that touch the job. If one already serves it, stop and point to it; otherwise extend the closest one. A new surface needs a stated reason why the existing one cannot carry the job.
 **From:** Product runbook; hacker-laws (Conway's Law)
 
-## Appetite and boundaries
+## Scope and boundaries
 
-### Appetite · both
-**Ask:** How much time is this problem worth, decided before the solution, and does the proposed design fit within it?
-**Smell:** An estimate that grows out of the design instead of a budget that limits it. "The best solution" debated with no constraint. Open-ended work that fills all the time available (Parkinson's Law) and still runs late after padding (Hofstadter's Law).
-**Move:** Fix the time and let the scope vary: a small batch is 1–2 weeks, a big batch is 6 weeks, for one designer and one or two programmers. If the design does not fit, narrow the problem or split off a part that fits. When time runs out, reshape the work rather than extend it by default; adding people to a late project rarely saves time (Brooks' Law).
-**From:** Shape Up (Set Boundaries; The Betting Table); hacker-laws (Parkinson's, Hofstadter's, Brooks' Laws)
+### Scope line · both
+**Ask:** How much of this problem is worth solving now, stated as what is in, what is out, and the smallest version that still does the job?
+**Smell:** A brief with no edge: "redesign the page" or "improve tickets", where every idea found along the way joins the scope until the design tries to cover every case. Must-haves and nice-to-haves sit unmarked side by side. "The best solution" is debated with nothing to bound it.
+**Move:** Draw the line in scope: list the must-haves that make the job work for the primary person, mark the nice-to-haves, and name what is out. When the design outgrows what the user wants to take on, narrow the problem or split off a part that stands on its own.
+**From:** Shape Up (Set Boundaries), adapted: the line is drawn in scope, not in time
 
 ### No-gos and rabbit holes · both
 **Ask:** Does the plan say what is out of scope, and which hard decisions has it settled before the build starts?
-**Smell:** No "not doing" list. Questions such as "what happens to existing records", "how do completed items show" or "what if the provider is down" are left for the builder to settle under deadline. The plan assumes a design or technique exists that nobody has actually tried.
-**Move:** Walk through one use case step by step and list the unknowns. Patch each one (often by keeping today's behaviour for that part), cut it, or fence it off as a named no-go. Ask a technical expert "can this fit the appetite?", not "is this possible?".
+**Smell:** No "not doing" list. Questions such as "what happens to existing records", "how do completed items show" or "what if the provider is down" are left for the builder to settle mid-build. The plan assumes a design or technique exists that nobody has actually tried.
+**Move:** Walk through one use case step by step and list the unknowns. Patch each one (often by keeping today's behaviour for that part), cut it, or fence it off as a named no-go. Ask a technical expert which unknown is riskiest, not only whether it is possible.
 **From:** Shape Up (Risks and Rabbit Holes; Write the Pitch)
 
 ### Scope hammering · both

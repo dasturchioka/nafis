@@ -60,6 +60,7 @@ keep that name stable.
 
 ## History
 
+- 2026-11-08: Cooper's *Appetite* card became *Scope line*. Nafis draws boundaries in scope, never in time, and sets no deadlines, estimates or branch/PR plans (user decision).
 - 2026-11-07: five reading passes produced 105 drafts, merged to 95 by removing
   overlaps (Tesler's Law, Postel, Occam/YAGNI, Doherty/Feedback, mental/conceptual
   model, working memory/recognition). One conflict was resolved: variant formats of a

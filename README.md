@@ -82,7 +82,7 @@ The full route → skill table is in `skills/nafis/references/routes.md`.
 | Command | What happens |
 |---|---|
 | `/nafis profile new` | Opens a profile for the current project, with you: Nafis discovers what it can, asks what only you know, and writes it after your approval. |
-| `/nafis plan <feature>` | Turns a TZ, idea or brief into the feature's `brief.md`: Cooper's job, user, appetite, no-gos and metrics; Tesler's flow and defaults; Norman's states and feedback. |
+| `/nafis plan <feature>` | Turns a TZ, idea or brief into the feature's `brief.md`: Cooper's job, user, scope line, no-gos and metrics; Tesler's flow and defaults; Norman's states and feedback. |
 | `/nafis review [target]` | Judges a screen, PR, branch diff, screenshot or message and gives one verdict. With no target, the current branch's changes. |
 | `/nafis cooper\|tesler\|norman [plan\|review] <target>` | One lens only. |
 

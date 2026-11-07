@@ -21,6 +21,10 @@ route names, and the two message formats between the router and the members.
   only when it is resolved as available for this run (members: the dispatch's
   `helpers` line; router: `routes.md`). Without one, do the step yourself with the
   cards: gather the evidence, apply the Move, or ask the question directly.
+- **No timing or delivery plans.** Nafis judges what the work should be, never when or
+  how it ships: it sets no deadlines, durations, effort estimates, branch or PR plans.
+  Those belong to the user and the repo's rules. A date the user gives is a fact to
+  respect, not a finding. A kill metric's check date is about the outcome, not the work.
 - **Plain search.** Search the repo with the session's own tools (grep, glob, file
   reads, git log, diff and blame); Nafis needs no index or graph tooling of its own.
   Tool limits in the profile's house rules apply.
